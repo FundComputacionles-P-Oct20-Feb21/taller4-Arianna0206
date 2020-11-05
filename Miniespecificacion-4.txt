@@ -1,0 +1,62 @@
+1.Inicio
+2.Se pide que se ingrese el primer costo del CPU
+3.Se pide que se ingrese el segundo costo del teclado
+4.Se pide que se ingrese el tercer costo de la pantalla
+5.Se pide que se ingrese el cuarto costo del ratón 
+6.Se realiza la operación de sumar los números ingresados
+7.Se presenta en pantalla el resultado de la suma 
+8.Fin
+
+Miniespecificacion o Pseudocódigo
+
+Opción 1
+1.Inicio
+//declaro las variables - entrada
+2.costo_del_CPU, d[0,n]
+3.costo_del_teclado, d[0,n]
+4.costo_del_pantalla, d[0,n]
+5.costo_del_ratón, d[0,n]
+
+//pido datos por teclado - entrada
+
+6.Escribir "Ingrese el costo del CPU"
+7.Leer costo del CPU
+8.Escribir "Ingrese el costo del teclado"
+9.Leer costo del teclado
+10.Escribir "Ingrese el costo de la pantalla"
+11.Leer costo de pantalla
+12.Escribir "Ingrese el costo del ratón"
+13.Leer costo del ratón
+
+//proceso
+
+14.costo de computadora de escritorio <-- costo del CPU + costo del teclado + costo de pantalla + costo del ratón
+
+//salida
+15.Escribir "El costo de computadora de escritorio es:" + costo_de_computadora_de_escritorio 
+
+Opción 2
+1.Inicio
+//declaro las variables - entrada
+2.costo_del_CPU, d[0,n]
+3.costo_del_teclado, d[0,n]
+4.costo_del_pantalla, d[0,n]
+5.costo_del_ratón, d[0,n]
+
+//pido datos por teclado - entrada
+
+6.<< "Ingrese el costo del CPU"
+7.>> costo del CPU
+8.<< "Ingrese el costo del teclado"
+9.>> costo del teclado
+10.<< "Ingrese el costo de la pantalla"
+11.>> costo de pantalla
+12.<< "Ingrese el costo del ratón"
+13.>> costo del ratón
+
+//proceso
+
+14.costo de computadora de escritorio <-- costo del CPU + costo del teclado + costo de pantalla + costo del ratón
+
+//salida
+15.<< "El costo de computadora de escritorio es:" + costo_de_computadora_de_escritorio 

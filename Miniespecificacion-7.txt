@@ -1,0 +1,68 @@
+1.Inicio
+2.Se pide que se ingrese el costo netflix  
+3.Se pide que se ingrese el costo de youtube premium
+4.Se pide que se ingrese el costo de dropbox 
+5.Se pide que se ingrese el costo de spotify
+6.Se realiza la operación de sumar los números ingresados y se resta el 20%
+7.Se presenta en pantalla el resultado de la suma 
+8.Fin
+
+Miniespecificacion o Pseudocódigo
+
+Opción 1 
+1.Inicio
+//declaro las variables - entrada
+2.el_costo_de_netflix, d[0,n]
+3.el_costo_de_youtube_premium, d[0,n]
+4.el_costo_de_dropbox, d[0,n]
+5.el_costo_de_spotify, d[0,n]
+6.el_pago_mensual_de_servicios_digitales, d[0,n]
+
+//pido datos por teclado
+7.Escribir "Ingrese el costo de netflix"
+8.Leer costo de netflix
+9.Escribir "Ingrese el costo de youtube premium"
+10.Leer costo de youtube premium
+11.Escribir "Ingrese el costo de dropbox"
+12.Leer costo de dropbox
+13.Escribir "Ingrese el costo de spotify"
+14.Leer costo de spotify
+15.Escribir "Ingrese el pago mensual de los servicios digitales"
+16.Leer pago mensual de los servicios digitales
+17.Escribir "Ingrese el valor del 20% si cuenta con una edad menor a 30 años"
+18.Leer valor del 20% si cuenta con una edad menor a 30 años
+//proceso
+19.pago mensual de los servicios digitales <-- costo de netflix + costo de youtube premium  + costo de dropbox + costo de spotify - 20%
+
+//salida
+20.Escribir "El pago mensual de los servicios digitales es:" + pago_mensual_de_los_servicios_digitales
+
+
+Opción 2 
+1.Inicio
+//declaro las variables - entrada
+2.el_costo_de_netflix, d[0,n]
+3.el_costo_de_youtube_premium, d[0,n]
+4.el_costo_de_dropbox, d[0,n]
+5.el_costo_de_spotify, d[0,n]
+6.el_pago_mensual_de_servicios_digitales, d[0,n]
+
+//pido datos por teclado
+7.<< "Ingrese el costo de netflix"
+8.>> costo de netflix
+9.<< "Ingrese el costo de youtube premium"
+10.>> costo de youtube premium
+11.<< "Ingrese el costo de dropbox"
+12.>> costo de dropbox
+13.<< "Ingrese el costo de spotify"
+14.>> costo de spotify
+15.<< "Ingrese el pago mensual de los servicios digitales"
+16.>> pago mensual de los servicios digitales
+17.<< "Ingrese el valor del 20% si cuenta con una edad menor a 30 años"
+18.>> valor del 20% si cuenta con una edad menor a 30 años
+//proceso
+19.pago mensual de los servicios digitales <-- costo de netflix + costo de youtube premium  + costo de dropbox + costo de spotify - 20%
+
+//salida
+20.<< "El pago mensual de los servicios digitales es:" + pago_mensual_de_los_servicios_digitales
+

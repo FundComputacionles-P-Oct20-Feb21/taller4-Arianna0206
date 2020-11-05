@@ -1,0 +1,54 @@
+1.Inicio
+2.Se pide que se ingrese el valor de costo por kilovatio/hora 
+3.Se pide que se ingrese el número de kilovatios consumidos en el mes 
+4.Se realiza la operación de multiplicar el valor del costo por kilovatio/hora y el número de kilovatios consumidos en el mes y luego se resta el 10% 
+5.Se presenta en pantalla el resultado de la suma
+6.Fin
+
+Miniespecificacion o Pseudocódigo 
+
+Opción 1
+1.Inicio
+//declaro las variables
+2.el_costo_por_kilovatio/hora, d[0,n]
+3.el_número_de_kilovatios_consumidos_en_el_mes, d[0,n]
+4.el_valor_de_la_planilla, d[0,n]
+  
+//pido datos por teclado - entrada
+5.Escribir "Ingrese el costo por kilovatio/hora"
+6.Leer costo por kilovatio/hora
+7.Escribir "Ingrese el número de kilovatios consumidos en el mes"
+8.Leer número de kilovatios consumidos en el mes
+9.Escribir "Ingrese el valor de la planilla"
+10.Leer valor de la planilla
+11.Escribir "Ingrese el valor del 10% si cuenta con una edad mayor a 65 años"
+12.Leer valor del 10% si cuenta con una edad mayor a 65 años
+ 
+//proceso
+13.valor de la planilla <-- costo por kilovatio/hora * número de kilovatios consumidos en el mes - 10%
+
+//salida
+14.Escribir "El valor de la planilla de luz es:" + valor_de_la_planilla_de_luz
+
+Opción 2
+1.Inicio
+//declaro las variables
+2.el_costo_por_kilovatio/hora, d[0,n]
+3.el_número_de_kilovatios_consumidos_en_el_mes, d[0,n]
+4.el_valor_de_la_planilla, d[0,n]
+  
+//pido datos por teclado - entrada
+5.<< "Ingrese el costo por kilovatio/hora"
+6.>> costo por kilovatio/hora
+7.<< "Ingrese el número de kilovatios consumidos en el mes"
+8.>> número de kilovatios consumidos en el mes
+9.<< "Ingrese el valor de la planilla"
+10.>> valor de la planilla
+11.<< "Ingrese el valor del 10% si cuenta con una edad mayor a 65 años"
+12.>> valor del 10% si cuenta con una edad mayor a 65 años
+ 
+//proceso
+13.valor de la planilla <-- costo por kilovatio/hora * número de kilovatios consumidos en el mes - 10%
+
+//salida
+14.<< "El valor de la planilla de luz es:" + valor_de_la_planilla_de_luz

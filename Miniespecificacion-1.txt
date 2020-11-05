@@ -1,0 +1,51 @@
+1.Inicio
+2.Se pide la altura del triángulo.
+3.Se pide la base del triángulo.
+4.Se calcula el área del triángulo multiplicando la base por la altura y dividirlo para dos.
+5.Se muestra el área total del triangulo.
+6.Fin 
+ 
+Miniespicificacion - Pseudocódigo
+
+Opción 1 
+
+1. Inicio
+//declaro las variables 
+2. Base, d[0,n]
+3. Altura, d[0,n]
+
+//pido datos por teclado - entrada 
+4.Escribir"Ingrese la base del triangulo"
+5.leer altura
+6.Escribir "Ingrese la altura del triangulo"
+7.leer base
+8.Escribir "Ingrese el area del triangulo"
+9.leer area 
+
+// proceso
+10. Area <-- base * altura/2
+
+//salida 
+11. Escribir "el area del triangulo es:" + area_del_triangulo
+
+Opción 2 
+
+1. Inicio
+//declaro las variables 
+2. Base, d[0,n]
+3. Altura, d[0,n]
+
+//pido datos por teclado - entrada 
+4.<< "Ingrese la base del triangulo"
+5.>> altura
+6.<< "Ingrese la altura del triangulo"
+7.>> base
+8.<< "Ingrese el area del triangulo"
+9.>> area 
+
+// proceso
+10. Area <-- base * altura/2
+
+//salida 
+11. << "el area del triangulo es:" + area del triangulo
+

@@ -1,0 +1,50 @@
+
+1. Inicio
+2.Se pide que se ingrese el gasto primer hijo
+3.Se pide que se ingrese el gasto segundo hijo
+4.Se pide que se ingrese el gasto tercer hijo 
+5.Se realiza la operación de sumar los números ingresados.
+6.Se presenta en pantalla el resultado de la suma
+7.Fin
+
+Miniespecificacion o Pseudocódigo
+
+Opción 1
+1.Inicio
+// declaro las variables 
+
+2.gasto_primer_hijo, d[0,n]
+3.gasto_segundo_hijo, d[0,n]
+4.gasto_tercer_hijo, d[0,n]
+5.total_Gasto, d[0,n]
+// pide datos por teclado - entrada
+6. Escribir "Ingresar el gasto del primer hijo"
+7. Leer gasto primer hijo
+8. Escribir "Ingresar el gasto del segundo hijo"
+9. Leer gasto segundo hijo
+10. Escribir "Ingresar gasto del tercer hijo"
+11. Leer gasto tercer hijo
+//proceso 
+12. Total_de_gastos <-- gasto_primer_hijo + gasto_segundo_hijo + gasto_tercer_hijo
+//salida 
+13. Escribir " El total de gastos es:" + total_de_gastos
+
+Opción 2
+1.Inicio
+// declaro las variables 
+
+2.gasto_primer_hijo, d[0,n]
+3.gasto_segundo_hijo, d[0,n]
+4.gasto_tercer_hijo, d[0,n]
+5.total_Gasto, d[0,n]
+// pide datos por teclado - entrada
+6. << "Ingresar el gasto del primer hijo"
+7. >> gasto primer hijo
+8. << "Ingresar el gasto del segundo hijo"
+9. >> gasto segundo hijo
+10. << "Ingresar gasto del tercer hijo"
+11. >> gasto tercer hijo
+//proceso 
+12. Total_de_gastos <-- gasto_primer_hijo + gasto_segundo_hijo + gasto_tercer_hijo
+//salida 
+13. << " El total de gastos es:" + total_de_gastos 

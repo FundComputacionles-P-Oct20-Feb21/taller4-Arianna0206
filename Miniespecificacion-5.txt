@@ -1,0 +1,52 @@
+1.Inicio
+2.Se pide que se ingrese el monto del préstamo 
+3.Se pide que se ingrese el interés mensual a cobrar 
+4.Se realiza operación de multiplicar el monto del préstamo, el interés y los 12 meses que consta del año. 
+5.Se presenta en pantalla el resultado de la multiplicación 
+6.Fin
+
+Miniespecificacion o Pseudocódigo
+
+Opción 1
+
+1.Inicio
+//declaro las variables
+2.el_monto_del_préstamo, d[0,n]
+3.el_interés_mensual_a_cobrar, d[0,n]
+4.el_pago_mensual_del_préstamo_de_un_año, d[0,n]
+
+//pido datos po teclado
+5.Escribir "Ingrese el monto del préstamo"
+6.Leer monto del préstamo
+7.Escribir "Ingrese el interés mensual a cobrar"
+8.Leer interés mensual a cobrar
+9.Escribir "Ingrese el pago mensual del préstamo de una año"
+10.Leer pago mensual del préstamo de un año
+
+//proceso
+11.pago mensual del préstamo mensual de un año <-- monto del préstamo * interés mensual a cobrar * pago mensual del préstamo de un año
+
+//salida 
+12.Escribir "El pago mensual del préstamo de un año es:" + pago_mensual_del_préstamo_de_un_año
+
+Opción 2 
+
+1.Inicio
+//declaro las variables
+2.el_monto_del_préstamo, d[0,n]
+3.el_interés_mensual_a_cobrar, d[0,n]
+4.el_pago_mensual_del_préstamo_de_un_año, d[0,n]
+
+//pido datos po teclado
+5.<< "Ingrese el monto del préstamo"
+6.>> monto del préstamo
+7.<< "Ingrese el interés mensual a cobrar"
+8.>> interés mensual a cobrar
+9.<< "Ingrese el pago mensual del préstamo de una año"
+10.>> pago mensual del préstamo de un año
+
+//proceso
+11.pago mensual del préstamo mensual de un año <-- monto del préstamo * interés mensual a cobrar * pago mensual del préstamo de un año
+
+//salida 
+12.<< "El pago mensual del préstamo de un año es:" + pago_mensual_del_préstamo_de_un_año

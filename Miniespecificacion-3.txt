@@ -1,0 +1,53 @@
+1.Inicio
+2.Se pide ingresar el número de minutos consumidos en el mes
+3.Se pide el costo por minutos
+4.Se calcula el costo total de cada minutos consumidos al mes 
+5.Se muestra el costo total de la planilla del teléfono 
+6.Fin
+
+
+Miniespecificacion o Pseudocódigo 
+
+Opción 1
+
+1.Inicio
+// declaro las variables - entrada 
+2. el_costo_por_minuto, d[0,n]
+3. el_numero_de_minutos_consumidos_por_el_mes, d[0,n]
+4. el_valor_de_la_planilla, d[0,n]
+
+// pido datos por teclado
+5.Escribir "Ingrese el costo por minuto"
+6.Leer costo por minuto
+7.Escribir "Ingrese el número de minutos consumidos por el mes"
+8.Leer número de minutos consumidos por el mes
+9.Escribir "Ingrese el valor de la planilla"
+10.Leer valor de la planilla
+
+//proceso
+11.valor de planilla <-- costo por minuto * costo por el número de minutos consumido por el mes
+
+//salida
+12.Escribir " El valor de la planilla en la casa es:" + valor_de_la_planilla
+
+Opción 2
+
+1.Inicio
+// declaro las variables - entrada 
+2. el_costo_por_minuto, d[0,n]
+3. el_numero_de_minutos_consumidos_por_el_mes, d[0,n]
+4. el_valor_de_la_planilla, d[0,n]
+
+// pido datos por teclado
+5.<< "Ingrese el costo por minuto"
+6.>> costo por minuto
+7.<< "Ingrese el número de minutos consumidos por el mes"
+8.>> número de minutos consumidos por el mes
+9.<< "Ingrese el valor de la planilla"
+10.>> valor de la planilla
+
+//proceso
+11.valor de planilla <-- costo por minuto * costo por el número de minutos consumido por el mes
+
+//salida
+12.<< " El valor de la planilla en la casa es:" + valor_de_la_planilla
